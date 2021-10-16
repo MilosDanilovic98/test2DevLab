@@ -1,7 +1,6 @@
 .mainContainer {
   display: flex;
   margin: auto;
-  width: 300px;
 }
 .leftSide {
   background-color: blue;
