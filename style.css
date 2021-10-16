@@ -1,0 +1,13 @@
+.mainContainer {
+  display: flex;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+}
+.leftSide {
+  background-color: blue;
+  display: grid;
+}
+.rightSide {
+  background-color: burlywood;
+}
