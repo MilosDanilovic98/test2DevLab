@@ -28,7 +28,26 @@
         <div class="leftSideButton" onclick="leftSideButtonClicked()">c</div>
       </div>
 
-      <div class="rightSide"></div>
+      <div class="rightSide">
+        <span class="caption">Power</span>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+        <div class="btn">
+            <button>Heater</button>
+        </div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <p>Value: <span id="demo"></span></p>
+        </div>
+    <!-- Second toggle -->
+    <span class="caption">Bank</span>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+    </label>
+      </div>
     </div>
   </body>
 </html>
