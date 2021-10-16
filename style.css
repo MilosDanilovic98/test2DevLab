@@ -1,13 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 .mainContainer {
   display: flex;
   margin: auto;
-  width: 300px;
-  height: 200px;
+  width: 50%;
+  background-color: gray;
+  border-top: solid 1px gold;
+  border-bottom: solid 1px gold;
 }
 .leftSide {
-  background-color: blue;
+  background-color: gray;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  justify-items: center;
 }
-.rightSide {
-  background-color: burlywood;
+.leftSideButton {
+  padding: 30px;
+
+  background-color: darkgray;
+  border: solid 1px black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
 }
